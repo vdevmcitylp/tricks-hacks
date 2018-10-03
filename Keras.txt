@@ -4,8 +4,6 @@ Keras Hacks:
 Save Best Model:
 
 	from keras.callbacks import ModelCheckpoint
-
 	mcp = ModelCheckpoint(filepath = model_path, save_best_only = True, monitor = 'val_acc', mode = 'max')
-
 	callbacks = [mcp]
 

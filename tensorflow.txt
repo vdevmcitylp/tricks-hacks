@@ -1,0 +1,6 @@
+Tensorflow Hacks:
+
+Disable Tensorflow Warnings:
+	os.environ["TF_CPP_MIN_LOG_LEVEL"]="2"
+
+Note: By default, TensorFlow will create a new tf.Tensor each time you use the same tensor-like object. If the tensor-like object is large (e.g. a numpy.ndarray containing a set of training examples) and you use it multiple times, you may run out of memory. To avoid this, manually call tf.convert_to_tensor on the tensor-like object once and use the returned tf.Tensor instead.

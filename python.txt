@@ -1,0 +1,5 @@
+Python Hacks:
+
+Convert list of strings to int:
+
+	x = list(map(int, x))

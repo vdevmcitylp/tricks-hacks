@@ -1,0 +1,35 @@
+Using virtualenv:
+
+	Installation:
+
+		sudo apt-get install python3-pip
+		sudo pip3 install virtualenv
+
+	Creation:
+
+		virtualenv -p /usr/bin/python3.5 py35
+
+	Activation:
+		
+		. py35/bin/activate
+
+	Deactivation: 
+		
+		deactivate
+
+
+Adding permanent environment variable:
+
+	1) Open up environment file in sudo mode:
+		sudo -H gedit /etc/environment
+
+	2) Add variable name with value:
+		py35="..."
+
+	3) Save File
+
+	4) Log out for environment variable updation, log in.
+
+	To access value:
+		$py35
+

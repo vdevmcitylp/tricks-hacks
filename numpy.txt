@@ -1,0 +1,3 @@
+Numpy Trivia:
+
+	np.array is a function which returns a np.ndarray class object

@@ -1,2 +1,2 @@
 python -m pip install numpy scipy matplotlib ipython jupyter pandas sympy nose
-pip install sklearn h5py
+pip install sklearn h5py tensorflow keras
